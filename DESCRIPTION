@@ -1,0 +1,23 @@
+Package: umorphr
+Type: Package
+Title: Urban Morphology Tools
+Version: 0.1.0
+Authors@R: person("Egor", "Kotov", email = "kotov.egor@gmail.com",
+                  role = c("aut", "cre"), comment = c(ORCID = "0000-0001-6690-5345"))
+Maintainer: Egor Kotov <kotov.egor@gmail.com>
+Description: A set of tools for calculating various urban morphological parameters in R.
+   The toolset is intended to be used for multicore computation so that
+   we can analyse spatial datasets for large cities and metro areas.
+   It is inspired by Morpho (Oliveira, 2013) and other works on urban form
+   and urban morphology. It is in the very early stages of development,
+   and I am a first timer package developer, so do not expect everything
+   to work correctly and bug-free.
+Depends: R (>= 3.1.0)
+License: GPL-2 | MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    data.table (>= 1.10),
+    sf (>= 0.6)
+URL: http://github.com/e-kotov/umorphr/
+BugReports: https://github.com/e-kotov/umorphr/issues
